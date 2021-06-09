@@ -1,0 +1,24 @@
+{
+  "name": "kod.2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Galges/git-lesson.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Galges/git-lesson/issues"
+  },
+  "homepage": "https://github.com/Galges/git-lesson#readme",
+  "devDependencies": {
+    "browser-sync": "^2.26.14",
+    "html-validate": "^4.13.1"
+  }
+}
