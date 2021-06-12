@@ -1,0 +1,38 @@
+/* Global */
+.rectangle {
+    background-color:#0097e6;
+    Height: 500px;
+   
+}
+    .square {
+    background-color: white;
+    height: 650px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+     }
+     
+     .box-two {
+         display:flex;
+         justify-content:space-between;
+         flex: 0 0 50%;
+         flex-direction: row;
+     }
+      .box-one {
+         display:flex;
+         justify-content:space-between;
+         flex: 0 0 50%;
+         flex-direction: row;
+     }
+      .box-three {
+         display:flex;
+         justify-content:space-between;
+         flex: 0 0 50%;
+         flex-direction: row;
+     }
+      .box-four{
+         display:flex;
+         justify-content:space-between;
+         flex: 0 0 50%;
+         flex-direction: row;

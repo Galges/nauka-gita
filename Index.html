@@ -1,42 +1,148 @@
-<!DOCTYPE html>
-
+<!DOCTYPE HTML> 
 <html lang="pl"> 
+
 <head>
-<meta charset="utf-8">
-<link rel="stylesheet" href="style.css">
+  <meta charset="utf-8">
+<link rel="stylesheet" href="vendor/bootstrap-grid.css">
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/css/bootstrap.min.css" integrity="sha384-VCmXjywReHh4PwowAiWNagnWcLhlEJLA5buUprzK8rxFgeH0kww/aWY76TfkUoSX" crossorigin="anonymous">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"> 
+
 </head>
 <body>
-    <h2>Wierz Jana Brzechwy
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">Navbar</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Dropdown
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">Action</a>
+            <a class="dropdown-item" href="#">Another action</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Something else here</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+        </li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+      </form>
+    </div>
+  </nav>
+  <div class="card bg-dark text-white">
+    <img src="https://i.postimg.cc/rFPcJdWK/pexels-lucie-liz-3165335.jpg" class="card-img" alt="...">
+    <div class="card-img-overlay">
+      <h3 class="card-title"> <b>Welcome</b></h3>
+      <p class="card-text">It's nice to meet you!.</p>
+      <a href="#" class="btn btn-primary"> Tell me more </a>
+    </div>
+  </div>
+  <h2 class="page-subtitle"><b> Our services</b> </h2>
+  <p>At vero eos et accusamus</p>
+<div class="container">
+  <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4">
+    <div class="col"> <i class="fas fa-box-open"></i>
+      
+    </div>
+    
+    <div class="col"><i class="fas fa-headphones"></i></div>
+    <div class="col"></b> <i class="fas fa-laptop"></i></div>
+    <div class="col"></b><i class="fas fa-lock"></i></div>
+  </div>
+  
+  <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4">
+    <div class="col"><b>Column</b> 
+      <p> <br>sit amet, consectetur adipiscing elit.Aenean nisl sem pulvinar a volutpa Pellentesque orci neque, tempor in lectus vitae, rutrum fermentum urnamauris laoreet pulvinar tristique. Aenean nisl sem, pulvinar a volutpat vitae, imperdiet a dolor. Ut vehicula ligula efficitur dignissim fermentum.  </p>
+    </div>
+    
+    <div class="col"><b>Column</b><p> <br>sit amet, consectetur adipiscing elit.Aenean nisl sem pulvinar a volutpa Pellentesque orci neque, tempor in lectus vitae, rutrum fermentum urnamauris laoreet pulvinar tristique. Aenean nisl sem, pulvinar a volutpat vitae, imperdiet a dolor. Ut vehicula ligula efficitur dignissim fermentum.  </p></div>
+    <div class="col"><b>Column</b> <p> <br>sit amet, consectetur adipiscing elit.Aenean nisl sem pulvinar a volutpa Pellentesque orci neque, tempor in lectus vitae, rutrum fermentum urnamauris laoreet pulvinar tristique. Aenean nisl sem, pulvinar a volutpat vitae, imperdiet a dolor. Ut vehicula ligula efficitur dignissim fermentum.  </p></div>
+    <div class="col"><b>Column</b><p> <br>sit amet, consectetur adipiscing elit.Aenean nisl sem pulvinar a volutpa Pellentesque orci neque, tempor in lectus vitae, rutrum fermentum urnamauris laoreet pulvinar tristique. Aenean nisl sem, pulvinar a volutpat vitae, imperdiet a dolor. Ut vehicula ligula efficitur dignissim fermentum.  </p></div>
+  </div>
+</div>
+<div class="box">
+<h2 class='page-subtitle'><b> Our Portfolio</b> </h2>
+<p>At vero eos et accusamus</p>
+<div class="card-group">
+  <div class="card">
+    <img src="https://i.postimg.cc/3ry5LfxZ/pexels-ivan-samkov-4162449.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Neque porro</h5>
+      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      
+    </div>
+  </div>
+  <div class="card">
+    <img src="https://i.postimg.cc/pTdS9CTr/pexels-erik-mclean-4061662.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Neque porro</h5>
+      <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+      
+    </div>
+  </div>
+  <div class="card">
+    <img src="https://i.postimg.cc/3ry5LfxZ/pexels-ivan-samkov-4162449.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Neque porro</h5>
+      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+     
+    </div>
+  </div>
+  </div>
 
-    </h2>
-    <h3><i>Pomidor</i></h3>
-    
-    <p>Pan pomidor wlazł na tyczkę<br>
-        I przedrzeźnia ogrodniczkę. <br>
-        „Jak pan może,<br>
-        Panie pomidorze?!”</p>
+ 
+    <div class="card-group">
+    <div class="card">
+      <img src="https://i.postimg.cc/pTdS9CTr/pexels-erik-mclean-4061662.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Neque porro</h5>
+        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
         
-        <p>Oburzyło to fasolę: <br>
-            „A ja panu nie pozwolę! <br>
-            Jak pan może, <br>
-            Panie pomidorze?!”</p>
-            <p>Groch zzieleniał aż ze złości: <br>
-                „Że też nie wstyd jest waszmości, <br>
-                Jak pan może, <br>
-                Panie pomidorze?!”</p>
-                <p>Rzepa także go zagadnie: <br>
-                    „Fe! Niedobrze! Fe! Nieładnie! <br>
-                    Jak pan może, <br>
-                    Panie pomidorze?!”</p>
-                    <p>Rozgniewały się warzywa: <br>
-                        „Pan już trochę nadużywa. <br>
-                        Jak pan może, <br>
-                        Panie pomidorze?!”</p>
-                        <p>Pan pomidor zawstydzony, <br>
-                            Cały zrobił się czerwony  <br>
-                            I spadł wprost ze swojej tyczki <br>
-                            Do koszyczka ogrodniczki.</p>
-    
-    by M.g
-                            </body>
-                            </html>
+      </div>
+    </div>
+    <div class="card">
+      <img src="https://i.postimg.cc/3ry5LfxZ/pexels-ivan-samkov-4162449.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Neque porro</h5>
+        
+        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+        
+      </div>
+    </div>
+    <div class="card">
+      <img src="https://i.postimg.cc/pTdS9CTr/pexels-erik-mclean-4061662.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Neque porro</h5>
+        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+        
+      </div>
+    </div>
+  
+</div>
+</div>
+
+<div class="footer">
+  <ul>
+  <li> <a href="#"> <i class="fab fa-facebook-f"></i></a></li>
+  <li> <a href="#"> <i class="fab fa-google-plus"></i></a> </li>
+  <li> <a href="#"> <i class="fab fa-instagram"></i>  </a> </li>
+  </div>
+ 
+
+</body>
